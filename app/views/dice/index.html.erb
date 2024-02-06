@@ -1,2 +1,22 @@
 
 <h1>Dice</h1>
+
+<% dice_roll1 = rand(1..6)%>
+<% dice_roll2 = rand(1..6)%>
+<p>
+<img src="/images/dice/<%=dice_roll1%>.svg">
+<img src="/images/dice/<%=dice_roll2%>.svg">
+
+</p>
+
+<p> The total is <%=dice_roll2 + dice_roll1%>
+
+<p> 
+<a href="/dice"> roll again </a>
+<a href="/tacos"> tacos </a>
+
+
+
+</p>
+
+
